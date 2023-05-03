@@ -1,0 +1,156 @@
+#menuGeral {
+    background-color: #333;
+    border: 1px solid #fff;
+}
+
+#menuGeral li a:hover {
+    background-color: #555;
+}
+
+#menuGeral li a {
+    transition: all 0.3s ease;
+}
+
+#menuGeral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menuGeral li a {
+    color: #fff;
+}
+
+#menuGeral li {
+	margin-right: 10px;
+ }
+ 
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: bisque;
+}
+
+h1 {
+	text-align: center;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.column {
+	flex: 1;
+	padding: 0 15px;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 50;
+	font-weight: bold;
+	position: relative;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+th, td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
+th {
+	background-color: #f2f2f2;
+}
+
+.form-contato {
+	margin: auto;
+	width: 50%;
+	max-width: 600px;
+  }
+  
+  label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	margin-right: 10px;
+  }
+  
+  input[type=text], input[type=email], textarea {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 20px;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  input:invalid, textarea:invalid {
+	border-color: #a94442;
+  }
+  
+  input:invalid:focus, textarea:invalid:focus {
+	border-color: #843534;
+  }
+  
+  .mensagem-sucesso {
+	color: #4CAF50;
+	font-weight: bold;
+	margin-top: 20px;
+  }
+
+  .logo {
+	width: 150px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 20px;
+  }
+  
+  .destacado {
+	border: 2px solid blue;
+	border-radius: 20px;
+	padding: 10px;
+  }
+      .final{
+		font-size: large;
+		background-origin: padding-box;
+	  }  
+  
+  
